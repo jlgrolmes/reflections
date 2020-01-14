@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The output from the FC command allowed me to focus on lines that were different between old and new files.  The typo bug likely is found in lines that differ from one version to the next.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If errors or bugs occur as versions develop, I can go back to an earlier version that worked, execute a diff between earlier and new to quickly find errors.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros - a manual commit allows me to work towards an objective and then summarize the status wrt to the objective for myself and others to refer
+    Cons - automatic saving can avoid "loss of work" situations due to system crash or work interruptions
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Multiple files make work together in a coordinated manner and as such versions may need to keep them coordinated.
+    Separate file commits work fine for un-coordinated files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Don't know how to use git log and git diff commands yet.  My guess are logs allow me to see activities to understand where versions come from.  Diffs allow me to see changes from one version to the next.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Breaking things allows me to write code that is more user-friendly (i.e. I can trap errors prior to release to users to reduce user frustrations).  Confidence comes from knowing I can revert to a previous version that works and then make it immune to the bugs that were just discovered.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use Git to control the creation of Jupyter notebooks.  These Jupyter notebooks will be used for work processes in manufacturing and upstream engineering.
