@@ -4,4 +4,6 @@ git creates a .git file to keep track of the metadata associated with file versi
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area allows you to pick and choose an appropriate selection of files from your working directory in preparation for a commit.  This allows you to create commits that are associated with logical changes in the project.
 
+How can you use the staging area to make sure you have one commit per logical change?
+I can use the staging area to only add the files that were changed for a logical change to the corresponding commit.
 
