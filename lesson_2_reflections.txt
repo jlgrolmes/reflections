@@ -13,3 +13,6 @@ Branches can help by allowing multiple code developers to "divide and conquer". 
 How do the diagrams help you visualize the branch structure?
 Keeping main a straight line helps focus on the main or production-ready code.
 Named branches off of main help visualize the work flow.  I and my collaborators can see when merges from branch to main are required.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together interweaves the parents of the two branches into a single line.  Keeping the branches separate in the diagram makes it easier to see the how each branch developed prior to the merge.
