@@ -9,3 +9,7 @@ I can use the staging area to only add the files that were changed for a logical
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches can help by allowing multiple code developers to "divide and conquer".  Each developer can work on a specific branch for a specific task and then when ready merge their work into the master branch.
+
+How do the diagrams help you visualize the branch structure?
+Keeping main a straight line helps focus on the main or production-ready code.
+Named branches off of main help visualize the work flow.  I and my collaborators can see when merges from branch to main are required.
