@@ -16,3 +16,7 @@ Named branches off of main help visualize the work flow.  I and my collaborators
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches together interweaves the parents of the two branches into a single line.  Keeping the branches separate in the diagram makes it easier to see the how each branch developed prior to the merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros - automatic merging allows the computer to do the hard work of keeping track of changes that can be done without conflicts.
+Cons - manual merges require more collaboration between authors but in the long-run keeps the project from losing critical new pieces.
