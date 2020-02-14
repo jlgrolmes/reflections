@@ -1,3 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 A remote repository enables me to create a collaborative project across a network.  Each collaborator can work locally and synchronize their work with the master project.  Every one can be connected to latest versions of master and branches.  This allows folks to 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks allow someone to create a copy of the repository on GitHub in their account.
+Forks preserve the links back to the original repository.
+
+Clones allow someone to create copies of a repository either from GitHub to Local computer, or from GitHub to GitHub, or from Local to Local.
+
+Branches are created on a working repository (either on GitHub or Local).
