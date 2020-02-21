@@ -10,3 +10,9 @@ Forks preserve the links back to the original repository.
 Clones allow someone to create copies of a repository either from GitHub to Local computer, or from GitHub to GitHub, or from Local to Local.
 
 Branches are created on a working repository (either on GitHub or Local).
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can make changes locally on your local version of the master branch.
+You can even merge your changes with the last know state of origin/master.
+When you push your master branch back to origin it should able to update via a Fast-Forward Merge.
