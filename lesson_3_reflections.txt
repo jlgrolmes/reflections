@@ -16,3 +16,7 @@ What is the benefit of having a copy of the last known state of the remote store
 You can make changes locally on your local version of the master branch.
 You can even merge your changes with the last know state of origin/master.
 When you push your master branch back to origin it should able to update via a Fast-Forward Merge.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I am now learning how to collaborate with MS Teams and MS Office365 tools.  These tools have similar collaboration features to Git and GitHub.  These tools work well for collaboration on documents, spreadsheets, and presentations.  I do plan to use Git and GitHub for collaboration on Python model development and use.
