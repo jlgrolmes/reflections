@@ -20,3 +20,11 @@ When you push your master branch back to origin it should able to update via a F
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I am now learning how to collaborate with MS Teams and MS Office365 tools.  These tools have similar collaboration features to Git and GitHub.  These tools work well for collaboration on documents, spreadsheets, and presentations.  I do plan to use Git and GitHub for collaboration on Python model development and use.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in a branch separate from master allows me to:  add new code features, test them, and have others validate them prior to merging these changes into master.  This allows the master branch to always have a validated working code available for use while upgrades are made on branches.
+
+Branches can be assigned to individual developers and their assigned tasks.
+
+Making changes only in Master without branches appears cleaner and avoids pull requests but can get difficult to manage parallel efforts to upgrade master.
